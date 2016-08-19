@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+                      <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ageLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="errorLabel" alignment="1" min="-2" pref="246" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="vitalSignsPageButton" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="encountersPageButton" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="reportsPageButton" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="medPageButton" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="labsPageButton" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="sexLabel" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
+                                      <Component id="patientNameLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="patientIDBox" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  <Component id="medicalNumTB" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  <Component id="altMedNumTB" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  <Component id="lastNameTB" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  <Component id="firstNameTB" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel20" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="midIntTB" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  <Component id="addressTB" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  <Component id="cityTB" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  <Component id="stateTB" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  <Component id="zipTB" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  <Component id="genderTB" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  <Component id="bDateTB" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel12" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel13" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel14" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel15" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel16" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel17" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel18" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jScrollPane1" alignment="0" min="-2" pref="178" max="-2" attributes="0"/>
+                                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="homePhoneTB" alignment="1" max="32767" attributes="0"/>
+                                                      <Component id="workPhoneTB" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="emailTB" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="nextKinTB" alignment="1" max="32767" attributes="0"/>
+                                                      <Component id="nextKinContactTB" alignment="1" max="32767" attributes="0"/>
+                                                      <Component id="ageTB" alignment="1" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="patientIDTB" min="-2" pref="59" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="searchRecButton" pref="121" max="32767" attributes="0"/>
+                              <Component id="addRecButton" alignment="1" max="32767" attributes="0"/>
+                              <Component id="deleteRecButton" alignment="1" max="32767" attributes="0"/>
+                              <Component id="saveRecButton" alignment="1" max="32767" attributes="0"/>
+                              <Component id="cancelRecButton" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="modRecButton" min="-2" pref="121" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace pref="14" max="32767" attributes="0"/>
+              <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="medPageButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="vitalSignsPageButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Component id="encountersPageButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Component id="reportsPageButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="labsPageButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="sexLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="patientNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="patientIDBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="patientIDTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="searchRecButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="medicalNumTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="modRecButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="altMedNumTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lastNameTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="firstNameTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                                      <Component id="addRecButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                      <Component id="deleteRecButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Component id="saveRecButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="midIntTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cancelRecButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="addressTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cityTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="stateTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="zipTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="genderTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bDateTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="errorLabel" min="-2" pref="53" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ageTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="homePhoneTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel13" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="workPhoneTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="emailTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nextKinTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nextKinContactTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="96" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="medicalNumTB">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="medicalNumTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="altMedNumTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="altMedNumTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="altMedNumTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="lastNameTB"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="altMedNumTBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lastNameTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="lastNameTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="firstNameTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="firstNameTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="firstNameTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="midIntTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="midIntTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="midIntTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="addressTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="addressTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="addressTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="cityTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cityTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="cityTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="stateTB"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cityTBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="stateTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="stateTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="zipTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="zipTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="zipTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="genderTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bDateTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="bDateTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="homePhoneTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ageTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="ageTB" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="homePhoneTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="homePhoneTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="workPhoneTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="workPhoneTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="workPhoneTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="emailTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="emailTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="emailTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="nextKinTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nextKinTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="nextKinTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="nextKinContactTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nextKinContactTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="nextKinContactTB" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="genNotesTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Patient ID :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Medical Record Number :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alternate Medical Record Number :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Name :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Name :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Middle Initial :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="State :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ZIP Code :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Birth Date :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Age :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Home Phone :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Work Phone :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Next of Kin :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Next of Kin Contact Info :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="General Notes :"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="genNotesTB">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="name" type="java.lang.String" value="genNotesTB" noResource="true"/>
+            <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="medicalNumTB"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel19">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Patient Demographics"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="patientNameLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="name"/>
+        <Property name="name" type="java.lang.String" value="patientNameLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sexLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="gender"/>
+        <Property name="name" type="java.lang.String" value="sexLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ageLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel22"/>
+        <Property name="name" type="java.lang.String" value="ageLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addRecButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Record"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="addRecButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="addRecButtonMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addRecButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="modRecButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modify"/>
+        <Property name="name" type="java.lang.String" value="modRecButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="modRecButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="deleteRecButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delete"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="deleteRecButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="deleteRecButtonMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteRecButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="saveRecButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="saveRecButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="saveRecButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="cancelRecButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="cancelRecButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="cancelRecButtonMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelRecButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="medPageButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Go To Medications"/>
+        <Property name="name" type="java.lang.String" value="medPageButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="medPageButtonMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="medPageButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vitalSignsPageButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Go To Vital Signs"/>
+        <Property name="name" type="java.lang.String" value="vitalSignsPageButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vitalSignsPageButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="encountersPageButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Go To Encounters"/>
+        <Property name="name" type="java.lang.String" value="encountersPageButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="encountersPageButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="reportsPageButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Go To Reports"/>
+        <Property name="name" type="java.lang.String" value="reportsPageButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="reportsPageButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="searchRecButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="searchRecButtonMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchRecButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="errorLabel">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="patientIDBox">
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="patientIDBoxItemStateChanged"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="12"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gender:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="genderTB">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="bDateTB"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="patientIDTB">
+    </Component>
+    <Component class="javax.swing.JButton" name="labsPageButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Go To Labs"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="labsPageButtonMouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
